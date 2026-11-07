@@ -1,5 +1,6 @@
 Nama : Ardhyanto Nugraha
 Kelas : TMJ 1B
+
 Dokumentasi Workshop Day 1 - From AI to GitHub
 
 Repository ini berisi dokumentasi saya selama mengikuti Day 1 Proyek Workshop-26 yang diadakan oleh HIMATIK PNJ (TikMengajar).
