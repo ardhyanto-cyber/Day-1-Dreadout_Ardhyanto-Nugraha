@@ -93,6 +93,6 @@ Pemateri juga mengajarkan cara membuat SSH key supaya bisa push ke GitHub dengan
 ssh-keygen -t ed25519 -C "email@domain.com"
 ssh -T git@github.com
 
-Menurut saya Day 1 workshop ini seru dan bermanfaat, apalagi buat saya yang masih semester 1 dan baru belajar. Materinya berurutan, mulai dari cara membuat prompt, lalu Git dan GitHub, lalu langsung praktik membuat aplikasi, jadi tidak cuma mendengarkan teori.
+Day 1 workshop ini seru dan bermanfaat buat saya yang masih semester 1 dan baru belajar. Materinya berurutan: cara membuat prompt, lalu Git dan GitHub, lalu praktik membuat aplikasi. Kami langsung praktik setelah teori.
 
-Yang paling saya ingat adalah ternyata hasil AI sangat tergantung dari cara kita menulis prompt. Saya juga jadi mengerti alur Git yang awalnya membingungkan, yaitu working directory, staging area, dan repository. Bagian yang menurut saya agak susah adalah setup awal seperti identitas Git dan SSH key, karena banyak perintah yang harus diketik dengan teliti.
+Hasil AI bergantung pada cara saya menulis prompt, dan itu bagian yang paling saya ingat. Alur Git (working directory, staging area, repository) yang semula membingungkan sekarang saya pahami. Setup awal seperti identitas Git dan SSH key terasa susah karena banyak perintah yang tidak boleh salah ketik.
