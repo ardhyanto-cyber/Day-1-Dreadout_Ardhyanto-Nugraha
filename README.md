@@ -1,4 +1,4 @@
-## Dokumentasi Workshop Day 1: From AI to GitHub
+# Dokumentasi Workshop Day 1: From AI to GitHub
 
 Repository ini berisi dokumentasi saya dari Day 1 Proyek Workshop-26 yang diadakan HIMATIK PNJ (TikMengajar).
 
@@ -29,20 +29,20 @@ Tanggal: 7 November 2026
 
 Workshop ini punya dua bagian. Bagian pertama membahas cara membuat dan mengembangkan sesuatu dengan AI. Bagian kedua membahas manajemen perubahan dan kolaborasi dengan Git dan GitHub.
 
-## 1. Prompt Engineering
+### 1. Prompt Engineering
 
 Prompt adalah instruksi yang kita berikan ke AI untuk mendapatkan hasil tertentu. Bentuknya bisa berupa pertanyaan, kata kunci, instruksi panjang, atau potongan kode. Prompt engineering adalah cara menyusun instruksi supaya jawaban AI tepat, relevan, dan layak dipakai.
 
 Pemateri menekankan bahwa konteks menentukan hasil. Prompt "Create student task planner" membuat AI menebak maksud kita. Prompt yang memuat tujuan, kebutuhan, dan batasan menghasilkan output yang lebih sesuai.
 
-## Struktur prompt yang baik:
+#### Struktur prompt yang baik:
 
 Role: peran yang kita minta dari AI
 Task: tujuan yang mau dicapai
 Context: kebutuhan dan batasan
 Format: bentuk output yang diminta
 
-## Tips prompt dari slide:
+#### Tips prompt dari slide:
 
 Pakai kata kerja yang jelas
 Tentukan panjang dan format output
@@ -51,7 +51,7 @@ Sertakan fakta atau data yang relevan
 Sebutkan sumber atau dokumen yang dipakai
 Jelaskan istilah penting
 
-## Keuntungan prompt engineering:
+#### Keuntungan prompt engineering:
 
 Performa model AI meningkat
 Bias dan jawaban yang offensive berkurang
@@ -65,7 +65,7 @@ GitHub adalah platform web untuk menyimpan repository Git secara online dan berk
 
 ## 3. Alur Kerja Git
 
-Git punya tiga bagian:
+###Git punya tiga bagian:
 
 Working directory: file proyek yang sedang kita kerjakan di komputer
 Staging area: tempat menampung perubahan yang akan masuk ke commit berikutnya
