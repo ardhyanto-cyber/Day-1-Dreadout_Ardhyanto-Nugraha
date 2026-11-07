@@ -57,13 +57,13 @@ Performa model AI meningkat
 Bias dan jawaban yang offensive berkurang
 Hasil lebih terkontrol dan bisa diprediksi
 Pengalaman pengguna lebih baik
-##2. Git dan GitHub
+###2. Git dan GitHub
 
 Git adalah version control system yang mencatat siapa mengubah apa dan kapan. Linus Torvalds membuat Git pada tahun 2005, dan kita menjalankannya di komputer sendiri (lokal).
 
 GitHub adalah platform web untuk menyimpan repository Git secara online dan berkolaborasi dengan orang lain.
 
-## 3. Alur Kerja Git
+### 3. Alur Kerja Git
 
 ###Git punya tiga bagian:
 
@@ -73,7 +73,7 @@ Git directory (repository): tempat Git menyimpan data dan riwayat proyek
 
 Alurnya: working directory -> git add -> staging area -> git commit -> repository.
 
-## 4. Perintah Git yang Dipelajari
+### 4. Perintah Git yang Dipelajari
 git --version                          # cek Git sudah terinstall
 git config --global user.name "Nama"   # atur nama
 git config --global user.email "email" # atur email
@@ -90,7 +90,7 @@ git remote add origin <url>            # hubungkan ke repo GitHub
 git push origin main                   # kirim ke GitHub
 git pull origin main                   # ambil perubahan dari GitHub
 
-## 5. SSH Key
+### 5. SSH Key
 
 Pemateri mengajarkan pembuatan SSH key supaya kita bisa push ke GitHub tanpa login berulang.
 
@@ -99,7 +99,7 @@ ssh -T git@github.com
 
 Langkahnya: buat key, tekan Enter untuk lokasi default, isi passphrase (boleh dikosongkan), lalu salin public key (file .pub). Setelah itu tambahkan key di GitHub lewat Settings, bagian SSH and GPG keys, tombol New SSH key. Perintah ssh -T git@github.com mengecek koneksinya.
 
-## 6. Praktik
+### 6. Praktik
 
 Pemateri memberi contoh aplikasi Student Task Planner
 Saya membuat website kelas TMJ 1B.
