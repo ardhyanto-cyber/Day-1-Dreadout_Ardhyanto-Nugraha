@@ -65,7 +65,7 @@ GitHub adalah platform web untuk menyimpan repository Git secara online dan berk
 
 ### 3. Alur Kerja Git
 
-###Git punya tiga bagian:
+### Git punya tiga bagian:
 
 Working directory: file proyek yang sedang kita kerjakan di komputer
 Staging area: tempat menampung perubahan yang akan masuk ke commit berikutnya
