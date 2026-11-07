@@ -1,8 +1,8 @@
-##Dokumentasi Workshop Day 1: From AI to GitHub
+## Dokumentasi Workshop Day 1: From AI to GitHub
 
 Repository ini berisi dokumentasi saya dari Day 1 Proyek Workshop-26 yang diadakan HIMATIK PNJ (TikMengajar).
 
-##Identitas
+## Identitas
 Nama lengkap: Ardhyanto Nugraha
 Kelompok: Dreadout
 Status: Mahasiswa semester 1 Teknik Informatika dan Komputer, prodi Teknik Multimedia dan Jaringan
@@ -12,7 +12,7 @@ Saya membuat repository ini untuk menyimpan catatan dan dokumentasi workshop Day
 
 Ini pertama kalinya saya memakai Git dan GitHub, jadi repository ini juga menjadi bahan latihan saya.
 
-##Tujuan Repository
+## Tujuan Repository
 Menyimpan dan mempublikasikan dokumentasi workshop secara online
 Latihan membuat repository GitHub berstatus Public
 Membuat catatan belajar yang rapi
@@ -24,24 +24,25 @@ Penyelenggara: HIMATIK PNJ
 Tema: From AI to GitHub (Building with AI, Managing Change with GitHub)
 Pemateri: Nugi Farhan (Senior Product Designer)
 Tanggal: 7 November 2026
-##Rangkuman Materi
+
+## Rangkuman Materi
 
 Workshop ini punya dua bagian. Bagian pertama membahas cara membuat dan mengembangkan sesuatu dengan AI. Bagian kedua membahas manajemen perubahan dan kolaborasi dengan Git dan GitHub.
 
-##1. Prompt Engineering
+## 1. Prompt Engineering
 
 Prompt adalah instruksi yang kita berikan ke AI untuk mendapatkan hasil tertentu. Bentuknya bisa berupa pertanyaan, kata kunci, instruksi panjang, atau potongan kode. Prompt engineering adalah cara menyusun instruksi supaya jawaban AI tepat, relevan, dan layak dipakai.
 
 Pemateri menekankan bahwa konteks menentukan hasil. Prompt "Create student task planner" membuat AI menebak maksud kita. Prompt yang memuat tujuan, kebutuhan, dan batasan menghasilkan output yang lebih sesuai.
 
-##Struktur prompt yang baik:
+## Struktur prompt yang baik:
 
 Role: peran yang kita minta dari AI
 Task: tujuan yang mau dicapai
 Context: kebutuhan dan batasan
 Format: bentuk output yang diminta
 
-##Tips prompt dari slide:
+## Tips prompt dari slide:
 
 Pakai kata kerja yang jelas
 Tentukan panjang dan format output
@@ -50,7 +51,7 @@ Sertakan fakta atau data yang relevan
 Sebutkan sumber atau dokumen yang dipakai
 Jelaskan istilah penting
 
-##Keuntungan prompt engineering:
+## Keuntungan prompt engineering:
 
 Performa model AI meningkat
 Bias dan jawaban yang offensive berkurang
@@ -62,7 +63,7 @@ Git adalah version control system yang mencatat siapa mengubah apa dan kapan. Li
 
 GitHub adalah platform web untuk menyimpan repository Git secara online dan berkolaborasi dengan orang lain.
 
-##3. Alur Kerja Git
+## 3. Alur Kerja Git
 
 Git punya tiga bagian:
 
@@ -72,7 +73,7 @@ Git directory (repository): tempat Git menyimpan data dan riwayat proyek
 
 Alurnya: working directory -> git add -> staging area -> git commit -> repository.
 
-##4. Perintah Git yang Dipelajari
+## 4. Perintah Git yang Dipelajari
 git --version                          # cek Git sudah terinstall
 git config --global user.name "Nama"   # atur nama
 git config --global user.email "email" # atur email
@@ -89,7 +90,7 @@ git remote add origin <url>            # hubungkan ke repo GitHub
 git push origin main                   # kirim ke GitHub
 git pull origin main                   # ambil perubahan dari GitHub
 
-##5. SSH Key
+## 5. SSH Key
 
 Pemateri mengajarkan pembuatan SSH key supaya kita bisa push ke GitHub tanpa login berulang.
 
@@ -98,7 +99,7 @@ ssh -T git@github.com
 
 Langkahnya: buat key, tekan Enter untuk lokasi default, isi passphrase (boleh dikosongkan), lalu salin public key (file .pub). Setelah itu tambahkan key di GitHub lewat Settings, bagian SSH and GPG keys, tombol New SSH key. Perintah ssh -T git@github.com mengecek koneksinya.
 
-##6. Praktik
+## 6. Praktik
 
 Pemateri memberi contoh aplikasi Student Task Planner
 Saya membuat website kelas TMJ 1B.
